@@ -4,8 +4,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-image: var(--foreground-color);
 }
 
@@ -17,7 +17,7 @@
 }
 
 .logo-container .icon{
-    width: 25vw;
+    width: 25%;
 }
 
 .logo-container .text{
@@ -27,7 +27,7 @@
 
 .logo-container .gradient{
     position: relative;
-    font-size: 10vh;
+    font-size: 10%;
     background: var(--main-color);
     background-clip: text;
     color: transparent;
@@ -36,7 +36,7 @@
 }
 
 .logo-container .stroke{
-    font-size: 10vh;
+    font-size: 10%;
     position: absolute;
     top: 0;
     left: 0;
@@ -48,9 +48,9 @@
 .login-forms{
     background-color: rgba(25, 25, 25, 0.75);
     border-radius: 25px;
-    padding: 0 5vw;
-    width: 45vw;
-    height: 80vh;
+    padding: 0 5%;
+    width: 45%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -58,12 +58,12 @@
 
 .login-forms .title{
     color: var(--background-main-color);
-    font-size: 8vh;
+    font-size: 8%;
 }
 
 .login-forms .description{
     color: var(--background-main-color);
-    font-size: 3.5vh;
+    font-size: 3.5%;
     font-weight: 300;
 }
 
@@ -79,7 +79,7 @@
 .login-forms label {
     display: block;
     margin-bottom: 5px;
-    font-size: 2vh;
+    font-size: 2%;
     font-weight: 600;
     color: var(--background-main-color);
 }
@@ -96,14 +96,14 @@
 
 .additional-options p{
     color: var(--background-main-color);
-    font-size: 2vh;
+    font-size: 2%;
     font-weight: 300;
 }
 
 .additional-options input[type="checkbox"] {
     appearance: none;
-    width: 2vh;
-    height: 2vh;
+    width: 2%;
+    height: 2%;
     border: 2px solid var(--background-main-color);
     border-radius: 3px;
     background-color: var(--background-main-color);
@@ -119,21 +119,21 @@
 .login-forms input[type="text"],
 .login-forms input[type="password"] {
     width: 100%;
-    height: 5vh;
+    height: 5%;
     padding: 10px;
     margin-bottom: 15px;
     border: none;
     border-radius: 5px;
     background-color: #FFF;
-    font-size: 2.5vh;
+    font-size: 2.5%;
 }
 
 .login-forms .button{
     width: 100%;
-    height: 5vh;
+    height: 5%;
     background-image: var(--main-color);
     color: white;
-    font-size: 2.5vh;
+    font-size: 2.5%;
     font-weight: 600;
     border-radius: 10px;
 }
@@ -151,7 +151,7 @@
 
     .logo-container .text .gradient,
     .logo-container .text .stroke{
-        font-size: 5vh;
+        font-size: 5%;
     }
 
     .login-forms {
@@ -163,25 +163,25 @@
     }
 
     .login-forms .title {
-        font-size: 5vh;
+        font-size: 5%;
     }
 
     .login-forms .description {
-        font-size: 2vh;
+        font-size: 2%;
     }
 
     .login-forms input[type="text"],
     .login-forms input[type="password"] {
-        font-size: 2vh;
+        font-size: 2%;
     }
 
     .login-forms .button {
-        font-size: 2vh;
+        font-size: 2%;
     }
 }
 
 @media(max-width: 600px){
     .login-forms .title{
-        font-size: 4.5vh;
+        font-size: 4.5%;
     }
 }
